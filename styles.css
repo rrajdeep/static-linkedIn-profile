@@ -22,14 +22,14 @@ body {
 div.fa-comment-dots {
     position: relative;
     font-size: 1.2em;
-    color: grey;
+    /* color: grey; */
     cursor: pointer;  
 }
 
 div.fa-bell {
     position: relative;
     font-size: 1.2em;
-    color: grey;
+    /* color: grey; */
     cursor: pointer;
   }
   span.fa-comment {
