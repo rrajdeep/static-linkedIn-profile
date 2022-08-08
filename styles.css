@@ -19,34 +19,6 @@ body {
     /* margin: auto; */
 }
 
-div.fa-comment-dots {
-    position: relative;
-    font-size: 1.2em;
-    /* color: grey; */
-    cursor: pointer;  
-}
-
-div.fa-bell {
-    position: relative;
-    font-size: 1.2em;
-    /* color: grey; */
-    cursor: pointer;
-  }
-  span.fa-comment {
-    position: absolute;
-    font-size: 0.8em;
-    top: -4px;
-    color: rgb(197, 5, 5);
-    right: -4px;
-  }
-  span.num {
-    position: absolute;
-    font-size: 0.3em;
-    top: 1px;
-    color: #fff;
-    right: 2px;
-  }
-
 
 input {
     background-color: #DCE6F1;
@@ -75,6 +47,7 @@ input:focus {
 
 .nav-bar {
     text-align: center;
+    background-color: white;
 }
 
 .nav-list {
@@ -100,12 +73,43 @@ input:focus {
     color: rgb(0 0 0 / 90%);
 }
 
+div.fa-comment-dots {
+    position: relative;
+    font-size: 1.2em;
+    /* color: grey; */
+    cursor: pointer;  
+}
+
+div.fa-bell {
+    position: relative;
+    font-size: 1.2em;
+    /* color: grey; */
+    cursor: pointer;
+  }
+  
+  span.fa-comment {
+    position: absolute;
+    font-size: 0.8em;
+    top: -4px;
+    color: rgb(197, 5, 5);
+    right: -4px;
+  }
+  span.num {
+    position: absolute;
+    font-size: 0.3em;
+    top: 1px;
+    color: #fff;
+    right: 2px;
+  }
+
 .grid-container {
     display: grid;
-    grid-template-columns: auto 540px auto;
+    grid-template-columns: auto auto auto;
     column-gap: 30px;
     margin-top: 30px;
     justify-content: center;
+    padding-left: 7%;
+    padding-right: 7%;
     /* margin-left: auto;
     margin-right: auto; */
 }
@@ -172,8 +176,7 @@ input:focus {
 .buy-premium-div {
     border-left: 1px solid #d3d3d3;
     border-right: 1px solid #d3d3d3;
-    padding-left: 1.2rem;
-    padding-right: 1.2rem;
+    padding: 1rem;
 }
 .my-items-div {
     padding-left: 1.2rem;
@@ -250,7 +253,7 @@ input:focus {
     background-color: white;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
     padding-bottom: 1rem;
 }
 
@@ -258,6 +261,12 @@ input:focus {
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
+}
+
+.post-comapny-profile {
+    display: flex !important;
+    flex-direction: row;
+    padding: 10px;
 }
 .company-post-logo {
     padding: 5px;
@@ -274,11 +283,14 @@ input:focus {
 }
 
 .ellipses {
-    position: absolute;
-    top: -5px;
-    right: -330px;
+    text-align: right;
+    flex: 1;
+    /* padding-right: 1rem; */
 }
 
+.followers {
+    font-size: 0.8rem;
+}
 .right-panel {
     /* width: 315px; */
     /* margin-left: 30px;
@@ -323,7 +335,5 @@ input:focus {
     margin: 5px;
     text-align: center;
     border-radius: 20px;
-    border: 1px solid;
-
-    
+    border: 1px solid;   
 }
