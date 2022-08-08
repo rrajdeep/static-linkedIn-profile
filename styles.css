@@ -4,11 +4,10 @@ body {
 }
 
 .nav-container {
-    /* position: absolute; */
+    position: relative;
     top: 0;
-    width: auto;
-    padding-left: 100px;
-    /* padding-right: 100px; */
+    padding-left: 5.5rem;
+    padding-right: auto;
     display: flex;
     background-color: white;
 }
@@ -16,13 +15,14 @@ body {
 .search {
     display: flex;
     flex-direction: row;
+    background-color: white;
     /* margin: auto; */
 }
 
 .search-div {
     padding-left: 10px;
-    padding-right: 50px;
-    margin: auto 4.5rem auto auto;
+    padding-right: 3rem;
+    margin: auto;
     background-color: #DCE6F1;
     height: 42px;
     width: 100%;
@@ -336,5 +336,5 @@ div.fa-bell {
     margin: 5px;
     text-align: center;
     border-radius: 20px;
-    border: 1px solid;
+    border: 1px solid; 
 }
