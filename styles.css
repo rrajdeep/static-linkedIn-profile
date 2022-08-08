@@ -19,6 +19,16 @@ body {
     /* margin: auto; */
 }
 
+.search-div {
+    padding-left: 10px;
+    padding-right: 50px;
+    margin: auto 4.5rem auto auto;
+    background-color: #DCE6F1;
+    height: 42px;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+}
 
 input {
     background-color: #DCE6F1;
@@ -34,16 +44,7 @@ input:focus {
     padding: 2px;
 }
 
-.search-div {
-    padding-left: 10px;
-    padding-right: 50px;
-    margin: auto;
-    background-color: #DCE6F1;
-    height: 42px;
-    width: 100%;
-    border-radius: 5px;
-    text-align: center;
-}
+
 
 .nav-bar {
     text-align: center;
@@ -336,6 +337,4 @@ div.fa-bell {
     text-align: center;
     border-radius: 20px;
     border: 1px solid;
-
-    
 }
